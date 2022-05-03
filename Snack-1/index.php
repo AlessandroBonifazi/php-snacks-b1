@@ -35,7 +35,7 @@ $gamesOfTheDay = [
 
 // Methods
 for($i = 0; $i < count($gamesOfTheDay); $i++) {
-    echo('<h2>' . 'Game: ' . $i . '</h2>');
+    echo('<h2>' . 'Game: ' . ($i+1) . '</h2>');
 
     $game = $gamesOfTheDay[$i];
     echo('<h3>' . $game['homeTeam'] . ' - ' . $game['awayTeam'] . '</h3>');
