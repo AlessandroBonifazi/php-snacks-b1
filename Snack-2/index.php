@@ -24,3 +24,10 @@ else{
 }
 
 ?>
+
+<form action="index.php" method="get">
+    <input type="text" required name="name" />
+    <input type="text" required name="mail" />
+    <input type="number" required name="age" />
+    <input type="submit">
+</form>
